@@ -12,10 +12,21 @@
   text-align: center;
   background-color: #395696;
   color: white;
-  display: grid;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-container>h1{
   font-size: 44px;
+  margin-left: 25px;
+}
+
+.header-search{
+  height: 20px;
+  width: 180px;
+  margin-right: 25px;
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
 }
