@@ -11,7 +11,8 @@ useEffect(()=>{
   .then((data)=>{  
     return data.json();
   }).then((result)=>{
-    console.log(result);
+    console.log("result: ", result);
+    setData(result)
   })
 }, [search])
 
