@@ -30,3 +30,17 @@
   font-size: 20px;
   outline: none;
 }
+
+.news-item{
+  border-bottom: 1px solid grey;
+  padding: 15px;
+}
+
+.news-item h1{
+  margin-bottom: 10px;
+
+}
+
+.newsitem p{
+  margin-bottom: 5px;;
+}
