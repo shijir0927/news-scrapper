@@ -14,7 +14,15 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.header-inner{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
 
 .header-container>h1{
@@ -25,7 +33,6 @@
 .header-search{
   height: 20px;
   width: 180px;
-  margin-right: 25px;
   padding: 5px;
   font-size: 20px;
   outline: none;
@@ -42,4 +49,30 @@
 
 .news-item p{
   margin-bottom: 5px;
+}
+
+.news-container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.news-container-left{
+  width: 65%;
+}
+
+.news-container-right{
+  width: 30%;
+  overflow: hidden;
+}
+
+.news-container-right > div > h1{
+  font-size: 20px;
+}
+
+.news-container-right > h3{
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  margin-top: 15px;
 }
