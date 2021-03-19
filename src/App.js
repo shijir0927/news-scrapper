@@ -11,7 +11,7 @@ function App() {
 
   useEffect(()=>{
 
-    fetch('http://hn.algolia.com/api/v1/search?query='+search)
+    fetch('https://hn.algolia.com/api/v1/search?query='+search)
     .then((data)=>{
       return data.json();
     }).then((result)=>{
