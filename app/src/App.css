@@ -17,6 +17,14 @@
   justify-content: space-between;
 }
 
+.head-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  }
+
 .header-container>h1{
   font-size: 44px;
   margin-left: 25px;
@@ -43,19 +51,14 @@
 .newsitem p{
   margin-bottom: 5px;;
 }
-.head-inner{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
-  }
+
 
 .news-container{
 display: flex;
 justify-content: space-between;
 width: 80% ;
 margin: auto;
+overflow: hidden;
 }
 
 .news-container-left{
@@ -68,7 +71,6 @@ margin: auto;
 
 .news-container-right > div > h1{
   font-size: 20px;
-  overflow: hidden;
 }
 
 .news-container-right>h3{
